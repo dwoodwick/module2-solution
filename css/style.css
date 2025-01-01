@@ -9,12 +9,13 @@ body {
 
 h1 {
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: Helvetica;
   text-align: center;
+  font-size: 175%;
 }
 
-div#container {
+div {
   position: relative;
 }
 
@@ -23,43 +24,37 @@ p {
   font-family: Helvetica;
   color: black;
   border: 3px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
+  margin: 10px 10px 10px 10px;
 }
 
 #p1,#p2,#p3 {
   padding: 40px 10px 10px 10px;
-  height:110px;
 }
 
 #sh1{
   text-align: center;
   background: pink;
-  font-weight: bold;
+  font-size: 125%;
   color: black;
   width: 100px;
   float: right;
-  margin-right: 2.5%;
 }
 
 #sh2{
   text-align: center;
   background: red;
-  font-weight: bold;
+  color: white;
+  font-size: 125%;
   width: 100px;
   float: right;
-  margin-right: 2.5%;
 }
 
 #sh3{
   text-align: center;
   background: lightgoldenrodyellow;
-  font-weight: bold;
-  color: black;
+  font-size: 125%;
   width: 100px;
   float: right;
-  margin-right: 2.5%;
 }
 /* Simple Responsive Framework. */
 
@@ -151,7 +146,7 @@ p {
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
-  .col-sm-1{
+  .col-sm-12{
     float: left;
     width: 100%;
   }
